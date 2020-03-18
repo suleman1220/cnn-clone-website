@@ -1,0 +1,778 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  margin: 10px auto;
+}
+
+.navbar {
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  color: rgb(220,220,220);
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.navbar-right {
+  display: inline;
+  float: right;
+  margin-top: 12px;
+}
+
+.navbar-right p {
+  display: inline-block;
+  font-size: .8rem;
+  font-weight: bolder;
+  position: relative;
+  bottom: 3px;
+  cursor: pointer;
+}
+
+.navbar-right p:hover {
+  color: white;
+}
+
+.navbar-right i {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.navbar-right i:hover {
+  color: white;
+}
+
+.logo {
+  height: 40px;
+  float: left;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: inline-block;
+  margin-top: 12px;
+}
+
+.nav-links li {
+  float: left;
+  list-style: none;
+  margin-right: 15px;
+  font-size: .9rem;
+  cursor: pointer;
+}
+
+.nav-links li:hover {
+  color: white;
+}
+
+.body {
+  padding-left: 9%;
+  padding-right: 9%;
+  color: #1f1f1f;
+}
+
+.headline {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.headline p {
+  font-size: .9rem;
+}
+
+.headline span {
+  color: rgb(204,0,0);
+}
+
+.main {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.heading {
+  width: 100%;
+  font-size: 3.9rem;
+  text-align: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.heading:hover {
+  color: rgb(204,0,0);
+}
+
+.left {
+  width: 40%;
+  float: left;
+  margin-right: 2%;
+}
+
+.left img,
+.center img,
+.right img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.left h2,
+.center h2,
+.right h2,
+.upper-left h2,
+.upper-center h2,
+.lower-left h2,
+.lower-center h2,
+.lower-right h2,
+.featured-section-div h2,
+.featured-section-div3 h2,
+.missedit-right h2 {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.left h2:hover,
+.center h2:hover,
+.right h2:hover,
+.upper-left h2:hover,
+.upper-center h2:hover,
+.lower-left h2:hover,
+.lower-center h2:hover,
+.lower-right h2:hover,
+.featured-section-div h2:hover,
+.featured-section-div3 h2:hover,
+.missedit-right h2:hover,
+.missedit-left h3:hover {
+  color: rgb(204,0,0);
+}
+
+.left p,
+.right p,
+.upper-left p,
+.upper-center p,
+.upper-right p,
+.lower-left p,
+.featured-section-div p,
+.featured-section-div3 p {
+  font-size: .9rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.left p:hover,
+.right p:hover,
+.upper-left p:hover,
+.upper-center p:hover,
+.upper-right p:hover,
+.lower-left p:hover,
+.lower-right-p p:hover,
+.lower-center-p p:hover,
+.featured-section-div p:hover,
+.featured-section-div3 p:hover {
+  color: rgb(204,0,0);
+}
+
+.left span,
+.right span {
+  color: rgb(204,0,0);
+}
+
+.left i,
+.right i,
+.upper-right i,
+.lower-left i {
+  color: rgb(192,192,192);
+}
+
+.left h5,
+.center h5,
+.right h5 {
+  position: absolute;
+  background-color: rgb(204,0,0);
+  color: white;
+  bottom: 4px;
+  left: 0px;
+  padding: 10px;
+}
+
+.center {
+  width: 28%;
+  float: left;
+  margin-right: 2%;
+}
+
+.center a,
+.left a {
+  font-size: .9rem;
+  color: #1f1f1f;
+  border-bottom: 2px solid rgb(192,192,192);
+}
+
+.center a:hover,
+.left a:hover {
+  border-bottom: none;
+  color: rgb(204,0,0);
+}
+
+.center-2nd-img {
+  margin-top: 25px;
+}
+
+.right {
+  width: 28%;
+  float: left;
+}
+
+.container {
+  position: relative;
+}
+
+.scnd-section {
+  width: 100%;
+  clear: both;
+  padding-top: 30px;
+}
+
+.scnd-section-headline,
+.featured-section-healine {
+  width: 100%;
+}
+
+.scnd-section-headline h2,
+.featured-section-headline h2,
+.missedit-headline h2 {
+  font-weight: 300;
+}
+
+.upper-section {
+  width: 100%;
+  clear: both;
+}
+
+.upper-left {
+  width: 32%;
+  float: left;
+  margin-right: 2%;
+}
+
+.upper-left img,
+.upper-center video,
+.lower-left img,
+.lower-center img,
+.lower-right img,
+.featured-section-div img,
+.featured-section-div3 img,
+.missedit-left img,
+.missedit-right img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.upper-center {
+  width: 32%;
+  float: left;
+  margin-right: 2%;
+}
+
+.upper-right {
+  width: 32%;
+  float: left;
+}
+
+.left-text,
+.center-text,
+.right-text,
+.lower-left-text,
+.lower-right-text,
+.lower-center-text,
+.featured-section-text {
+  width: 100%;
+  background-color: rgb(220,220,220);
+  height: 30px;
+  padding: 5px;
+}
+
+.left-text h3,
+.center-text h3,
+.right-text h3,
+.lower-left-text h3,
+.lower-right-text h3,
+.lower-center-text h3,
+.featured-section-text h3 {
+  font-size: 1rem;
+}
+
+.right-text {
+  margin-bottom: 10px;
+}
+
+.lower-section {
+  width: 100%;
+  padding-top: 30px;
+  clear: both;
+}
+
+.lower-left {
+  width: 28%;
+  float: left;
+  margin-right: 2%;
+}
+
+.lower-center {
+  width: 40%;
+  float: left;
+  margin-right: 2%;
+}
+
+.lower-right {
+  width: 28%;
+  float: left;
+}
+
+.lower-center-p,
+.lower-right-p {
+  width: 100%;
+  clear: both;
+  border-top: 1px solid rgb(220,220,220);
+}
+
+.lower-center-p video,
+.lower-center-p img {
+  width: 35%;
+  float: left;
+}
+
+.lower-right-p img {
+  width: 25%;
+  float: left;
+}
+
+.lower-center-p p {
+  font-weight: 300;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.lower-right-p p {
+  font-weight: 300;
+  font-size: .9rem;
+  cursor: pointer;
+}
+
+.featured-section {
+  width: 100%;
+  padding-top: 30px;
+  clear: both;
+}
+
+.featured-section-1strow,
+.featured-section-2ndrow,
+.featured-section-3rdrow {
+  width: 100%;
+  clear: both;
+}
+
+.featured-section-2ndrow,
+.featured-section-3rdrow {
+  padding-top: 30px;
+}
+
+.featured-section-div {
+  width: 32%;
+  float: left;
+  margin-right: 2%;
+}
+
+.featured-section-div3 {
+  width: 32%;
+  float: left;
+}
+
+.featured-section-text {
+  cursor: pointer;
+}
+
+.featured-section-text:hover {
+  background-color: rgb(192,192,192);
+}
+
+.featured-section-text h3 {
+  float: left;
+}
+
+.featured-section-text i {
+  float: right;
+}
+
+.missedit-section {
+  padding-left: 9%;
+  padding-right: 9%;
+  background-color: #1f1f1f;
+  clear: both;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+}
+
+.missedit-headline {
+  width: 100%;
+  color: white;
+}
+
+.missedit-body {
+  width: 100%;
+}
+
+.missedit-left {
+  width: 69%;
+  float: left;
+  margin-right: 2%;
+}
+
+.missedit-left h3 {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(0,0,0,.7);
+  color: white;
+  bottom: 4px;
+  left: 0px;
+  padding: 5px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.missedit-right {
+  width: 29%;
+  float: left;
+}
+
+.missedit-right h5 {
+  position: absolute;
+  background-color: white;
+  color: rgb(204,0,0);
+  bottom: 4px;
+  left: 0px;
+  padding: 10px;
+}
+
+.clearboth {
+  clear: both;
+}
+
+.footer {
+  padding-left: 4%;
+  padding-right: 4%;
+  background-color: black;
+  clear: both;
+  padding-top: 50px;
+  color: rgb(220,220,220);
+  padding-bottom: 50px;
+}
+
+.search input {
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  border-radius: 2px;
+  border: none;
+  font-family: 'Inter', sans-serif;
+}
+
+.search {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.footer-links {
+  width: 100%;
+}
+
+.footer-div {
+  width: 10%;
+  float: left;
+  margin-right: 5%;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.footer-div-last {
+  width: 10%;
+  float: left;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.footer-div h4,
+.footer-div-last h4 {
+  font-weight: bold;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.footer-div h4:hover,
+.footer-div-last h4:hover,
+.footer-div p:hover,
+.footer-div-last p:hover,
+.terms p:hover {
+  text-decoration: underline;
+}
+
+.footer-div p,
+.footer-div-last p {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.bottom-bar {
+  width: 100%;
+  color: rgb(220,220,220);
+  height: 40px;
+  clear: both;
+}
+
+.bottom-left {
+  float: left;
+  height: 100%;
+  cursor: pointer;
+}
+
+.bottom-right {
+  float: right;
+  display: inline;
+}
+
+.bottom-right p {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: .8rem;
+}
+
+.bottom-right i {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.bottom-right i:hover {
+  color: white;
+}
+
+.footer hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.terms {
+  width: 100%;
+}
+
+.terms p {
+  display: inline;
+  margin-right: .6%;
+  font-size: .75rem;
+  cursor: pointer;
+}
+
+.copyright {
+  width: 40%;
+  font-size: .75rem;
+  margin-top: 30px;
+}
+
+.dec:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.search i {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #1f1f1f;
+  cursor: pointer;
+}
+
+.clearhr {
+  clear: both;
+  border: 1px solid transparent;
+  height: 0px;
+}
+
+.missedit-headline hr {
+  border: none;
+  border-top: 1px solid rgb(204,0,0);
+  height: 0px;
+}
+
+.headline .light-grey {
+  color: rgb(192,192,192);
+}
+
+@media screen and (max-width: 649px) {
+  .navbar {
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: rgb(220,220,220);
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .nav-links li {
+    display: none;
+  }
+
+  .navbar-right p {
+    display: none;
+  }
+
+  .navbar-right i:nth-child(1),
+  .navbar-right i:nth-child(2),
+  .navbar-right i:nth-child(3) {
+    display: none;
+  }
+
+  .navbar-right i {
+    margin-right: 0;
+  }
+
+  .body,
+  .missedit-section,
+  .footer {
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+  }
+
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .left,
+  .center,
+  .right,
+  .upper-left,
+  .upper-center,
+  .upper-right,
+  .lower-left,
+  .lower-center,
+  .lower-right,
+  .featured-section-div,
+  .featured-section-div3,
+  .missedit-left,
+  .missedit-right {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+    margin-top: 30px;
+    clear: both;
+  }
+
+  .left p,
+  .right p,
+  .upper-left p,
+  .upper-center p,
+  .upper-right p,
+  .lower-left p,
+  .featured-section-div p,
+  .featured-section-div3 p {
+    font-size: 1.3rem;
+  }
+
+  .lower-right-p p {
+    font-size: 1.3rem;
+  }
+
+  .footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .footer hr {
+    clear: both;
+    border: 1px solid transparent;
+    height: 0px;
+  }
+
+  .footer-links {
+    text-align: center;
+    border-bottom: 1px solid rgb(220,220,220);
+    padding-bottom: 30px;
+  }
+
+  .footer-div,
+  .footer-div-last {
+    float: none;
+    clear: both;
+    width: 100%;
+    margin-right: 0;
+    margin-top: 15px;
+    line-height: normal;
+  }
+
+  .footer-div h4,
+  .footer-div-last h4 {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+  .footer-div p,
+  .footer-div-last p {
+    display: none;
+  }
+
+  .bottom-bar {
+    height: auto;
+  }
+
+  .bottom-left {
+    width: 100%;
+    display: block;
+    text-align: center;
+    float: none;
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .bottom-right {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+  .bottom-right p {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: .9rem;
+  }
+
+  .bottom-right p:nth-child(2) {
+    display: none;
+  }
+
+  .bottom-right i:nth-child(2) {
+    margin-right: 0;
+  }
+
+  .terms,
+  .copyright {
+    width: 100%;
+    text-align: center;
+  }
+}
